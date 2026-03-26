@@ -28,7 +28,7 @@ This list is identical to and coordinated with the [Provider Service Identifier 
 |   19 | 0x13 | 0p13 | multi-mobile-information-system |  | ISO/TC 204 | 2011-05-15 | assigned | [ISO 15628](https://www.iso.org/standard/59288.html) 
 |   20 | 0x14 | 0p14 | efc-compliance-check-communication-applications |  | ISO/TC 204 | 2011-05-15 | assigned | [ISO 15628](https://www.iso.org/standard/59288.html) 
 |   21 | 0x15 | 0p15 | efc-localisation-augumentation-communication- applications |  | ISO/TC 204 | 2011-05-15 | assigned | [ISO 15628](https://www.iso.org/standard/59288.html) 
-|   22 | 0x16 ? 0x1c | 0p16 ? 0p1c |  | reserved for future assignments by ISO TC 204 |  | 2011-05-15 | allocated |  
+|   22 | 0x16 … 0x1c | 0p16 … 0p1c |  | reserved for future assignments by ISO TC 204 |  | 2011-05-15 | allocated |  
 |   29 | 0x1d | 0p1d | private use |  | ISO/TC 204 | 2011-05-15 | assigned | [ISO 15628](https://www.iso.org/standard/59288.html) 
 |   30 | 0x1e | 0p1e | private use |  | ISO/TC 204 | 2011-05-15 | assigned | [ISO 15628](https://www.iso.org/standard/59288.html) 
 |   31 | 0x1f | 0p1f |  | reserved for future assignments by ISO TC 204 |  | 2011-05-15 | allocated |  
@@ -40,16 +40,16 @@ This list is identical to and coordinated with the [Provider Service Identifier 
 |   37 | 0x25 | 0p25 | DEN Basic Service |  | ETSI | 2015-06-08 | assigned | [ETSI EN 302 637-3](https://www.etsi.org/deliver/etsi_en/302600_302699/30263703/01.02.01_30/en_30263703v010201v.pdf) 
 |   38 | 0x26 | 0p26 | misbehavior reporting for common applications |  | CAMP | 2015-06-30 | assigned |  
 |   39 | 0x27 | 0p27 | vulnerable road users safety application |  | SAE DSRC TC | 2015-07-28 | assigned | [SAE J2945/9](https://www.sae.org/standards/content/j2945/9_201703/) 
-|   40 ? 52 | 0x28 ? 0x34 | 0p28 ? 0p34 |  | reserved for future assignments by the IEEE registrar |  |  | allocated | 
+|   40 … 52 | 0x28 … 0x34 | 0p28 … 0p34 |  | reserved for future assignments by the IEEE registrar |  |  | allocated | 
 |   53 | 0x35 | 0p35 | NPRA road safety traffic management application No. 1 | Norwegian Public Road Administration (NPRA) | NPRA | 2019-10-07 | assigned | tbd 
 |   54 | 0x36 | 0p36 | NPRA road safety traffic management application No. 2 | Norwegian Public Road Administration (NPRA) | NPRA | 2019-10-07 | assigned | tbd 
 |   55 | 0x37 | 0p37 | NPRA road safety traffic management application No. 3 | Norwegian Public Road Administration (NPRA) | NPRA | 2019-10-07 | assigned | tbd 
 |   56 | 0x38 | 0p38 | NPRA road safety traffic management application No. 4 | Norwegian Public Road Administration (NPRA) | NPRA | 2019-10-07 | assigned | tbd 
 |   57 | 0x39 | 0p39 | NPRA road safety traffic management application No. 5 | Norwegian Public Road Administration (NPRA) | NPRA | 2019-10-07 | assigned | tbd 
-|   58 ? 70 | 0x3a ? 0x46 | 0p3a ? 0p46 |  | **reserved for future assignments by the CEN registrar** |  |  | allocated | 
+|   58 … 70 | 0x3a … 0x46 | 0p3a … 0p46 |  | **reserved for future assignments by the CEN registrar** |  |  | allocated | 
 |   71 | 0x47 | 0p47 | Automated Vehicle Marshalling Service (AVM) | Allows an ITS-S to disseminate information about remote operation control and status | ETSI TC ITS | 2024-06-03 | assigned | TS 103 882 
-|   72 ? 110 | 0x48 ? 0x6e | 0p47 ? 0p6e |  | **reserved for future assignments by ISO/TC 204** |  |  | allocated |  
-|  111 ? 126 | 0x6f ? 0x7e | 0p6f ? 0p7e |  | **not yet available for assignments** |  |  | reserved |  
+|   72 … 110 | 0x48 … 0x6e | 0p47 … 0p6e |  | **reserved for future assignments by ISO/TC 204** |  |  | allocated |  
+|  111 … 126 | 0x6f … 0x7e | 0p6f … 0p7e |  | **not yet available for assignments** |  |  | reserved |  
 |  127 | 0x7f | 0p7f | testing | Can be used by everybody for test purposes with special authorisation | IEEE 1609 WG | 2011-07-13 | assigned |  
 |  128 | 0x80 | 0p80.00 | Differential GPS corrections, uncompressed |  | SAE | 2011-07-13 | assigned | SAE J2735 
 |  129 | 0x81 | 0p80.01 | Differential GPS corrections, compressed |  | SAE | 2011-07-13 | assigned | SAE J2735 
@@ -69,9 +69,9 @@ This list is identical to and coordinated with the [Provider Service Identifier 
 |  143 | 0x8f | 0p80.0f | V2X-based fee collection |  | SAE | 2021-02-04 | assigned | [SAE J3217](https://www.sae.org/standards/content/j3217/) 
 |  144 | 0x90 | 0p80.10 | Sensor Sharing Service | | SAE | 2022-04-04 | assigned | [SAE 3224](https://www.sae.org/standards/content/j3224/) 
 |  145 | 0x91 | 0p80.11 | Maneuver Coordination Service |  | SAE | 2022-06-06 | assigned | [SAE J3186](https://www.sae.org/standards/content/j3186/) 
-|  146 ? 255 | 0x92 ? 0xff | 0p80.12 ? 0p80.7f |  | **reserved for future assignments by the IEEE registrar** |  |  | allocated |  
+|  146 … 255 | 0x92 … 0xff | 0p80.12 … 0p80.7f |  | **reserved for future assignments by the IEEE registrar** |  |  | allocated |  
 |  256 | 0x100 | 0p80.80 | Certificate Revocation List Application |  | IEEE Std 1609.2 | 2015-07-28 | assigned |  
-|  257 ? 621 | 0x101 ? 0x2.6d | 0p80.81 ? 0p81.ed |  | **reserved for future assignments by the IEEE registrar** |  |  | allocated |  
+|  257 … 621 | 0x101 … 0x2.6d | 0p80.81 … 0p81.ed |  | **reserved for future assignments by the IEEE registrar** |  |  | allocated |  
 |  622 | 0x26e | 0p81.ee | Certificate Revocation List (CRL) service |  | ETSI | 2018-03-19 | assigned | [ETSI 102 941](https://www.etsi.org/deliver/etsi_ts/102900_102999/102941/01.04.01_60/ts_102941v010401p.pdf) 
 |  623 | 0x26f | 0p81.ef | Secured certificate request service |  | ETSI | 2018-03-19 | assigned | [ETSI 102 941](https://www.etsi.org/deliver/etsi_ts/102900_102999/102941/01.04.01_60/ts_102941v010401p.pdf) 
 |  624 | 0x270 | 0p81.f0 | Certificate Trust List (CTL) service |  | ETSI | 2018-03-19 | assigned | [ETSI 102 941](https://www.etsi.org/deliver/etsi_ts/102900_102999/102941/01.04.01_60/ts_102941v010401p.pdf) 
@@ -92,7 +92,7 @@ This list is identical to and coordinated with the [Provider Service Identifier 
 |  639 | 0x27f | 0p81.ff | Collective perception service (CPS) |  | ETSI | 2019-10-21 | assigned | ETSI TS 103 324 
 |  640 | 0x280 | 0p82.00 | Interference Management Zone (IMZ) | TS under development | ETSI |  | assigned | ETSI TS 103 724 
 |  641 | 0x281 | 0p82.01 | GTDM access control |  | CEN |  | assigned | [ISO 21184](https://www.iso.org/standard/70057.html) 
-|  642 ? 1615 | 0x282 ? 0x6.4f | 0p82.00 ? 0p85.cf |  | **reserved for future assignments by the CEN registrar** |  |  | allocated |  
+|  642 … 1615 | 0x282 … 0x6.4f | 0p82.00 … 0p85.cf |  | **reserved for future assignments by the CEN registrar** |  |  | allocated |  
 | 1616 | 0x650 | 0p85.d0 | TMS message set parser |  | CEN TC278 WG17 | 2017-12-11 | assigned | [CEN/TS 17241](https://shop.bsigroup.com/ProductDetail?pid=000000000030380105) 
 | 1617 | 0x651 | 0p85.d1 | eCall | eCall is mandatory and regulated in the EU | CEN TC278 WG15 | 2017-01-19 | assigned | CEN TC278 WI00278453 
 | 1618 | 0x652 | 0p85.d2 | MRS | Misbehaviour Reporting Service | ETSI TC ITS | 2023-02-10 | allocated | ETSI TS 103 759 
@@ -100,15 +100,15 @@ This list is identical to and coordinated with the [Provider Service Identifier 
 | 1620 | 0x654 | 0p85.d4 | Restricted Mode of Operation (RMO) | Enables devices to use a given frequency band under conditions that respect devices that have priority in that band. | ETSI TC ITS | 2025-02-15 | assigned | ETSI TS 103 745 
 | 1621 | 0x655 | 0p85.d5 | Parking Information Distribution System | Intelligent Transport Systems (ITS); Facilities Layer; Parking Information Service | ETSI TC ITS | 2025-03-21 | assigned | ETSI TS 104 072 
 | 1622 | 0x656 | 0p85.d6 | Misbehaviour Detection Management | Allows an ITS station to report misbehaviour such that it can be investigated by a misbehaviour authority | ETSI TC ITS | 2025-07-18 | assigned | ETSI TS 103 759 
-| 1623 ? 3615 | 0x657 ? 0xe1f | 0p85.d7 ? 0p8d.9f |  | **reserved for future assignments by ISO/TC 204** |  |  | allocated |  
-| 3616 ? 15999 | 0xe20 ? 0x3e7f | 0p8d.a0 ? 0pbd.ff |  | **not yet available for assignments** |  |  | reserved |  
-| 16000 ? 16415 | 0x3e80 ? 0x401f | 0pbe.00 ? 0pbf.9f |  | **reserved for future assignments by the IEEE registrar** |  |  | allocated |  
-| 16415 ? 16479 | 0x4020 ? 0x405f | 0pbf.a0 ... 0pbf.df | Private (unregistered) Use |  | IEEE 1609 WG | 2011-07-13 | assigned | &lt;none> 
-| 16480 ? 16511 | 0x4060 ? 0x407f | 0pbf.eo ... 0pbf.ff | Testing | Can be used by anybody for test purposes with special authorisation | IEEE 1609 WG | 2011-07-13 | assigned | &lt;none> 
+| 1623 … 3615 | 0x657 … 0xe1f | 0p85.d7 … 0p8d.9f |  | **reserved for future assignments by ISO/TC 204** |  |  | allocated |  
+| 3616 … 15999 | 0xe20 … 0x3e7f | 0p8d.a0 … 0pbd.ff |  | **not yet available for assignments** |  |  | reserved |  
+| 16000 … 16415 | 0x3e80 … 0x401f | 0pbe.00 … 0pbf.9f |  | **reserved for future assignments by the IEEE registrar** |  |  | allocated |  
+| 16415 … 16479 | 0x4020 … 0x405f | 0pbf.a0 ... 0pbf.df | Private (unregistered) Use |  | IEEE 1609 WG | 2011-07-13 | assigned | &lt;none> 
+| 16480 … 16511 | 0x4060 … 0x407f | 0pbf.eo ... 0pbf.ff | Testing | Can be used by anybody for test purposes with special authorisation | IEEE 1609 WG | 2011-07-13 | assigned | &lt;none> 
 | 16512 | 0x4080 | 0pc0.00.00 | CAM processor | Deprecated. Issuing of certificates prohibited. | ETSI | 2012-05-31 | legacy |  
 | 16513 | 0x4081 | 0pc0.00.01 | DENM processor | Deprecated. Issuing of certificates prohibited. | ETSI | 2012-05-31 | legacy |  
 | 16514| 0x4082 | 0pc0.00.02 | Vehicle initiated distress notification |  | Wyoming DOT | 2016-11-03 | assigned |  
-| 16515 ? 540800  | 0x4083 ? 0x84080 | 0pc0.00.03 ? 0pc8.00.00 |  | **reserved for future assignments by the IEEE registrar** |  |  | allocated |  
+| 16515 … 540800  | 0x4083 … 0x84080 | 0pc0.00.03 … 0pc8.00.00 |  | **reserved for future assignments by the IEEE registrar** |  |  | allocated |  
 | 540801 | 0x84081 | 0pc8.00.01 | ETSI Service Announcement |  | ETSI | 2018-03-21 | assigned | [ETSI TS 102 890-1](https://www.etsi.org/deliver/etsi_ts/102800_102899/10289001/01.01.01_60/ts_10289001v010101p.pdf) 
 | 540802 | 0x84082 | 0pc8.00.02 | GPC-GNSS |  | ETSI | 2018-09-26 | assigned | [ETSI 103 301](https://www.etsi.org/deliver/etsi_ts/103300_103399/103301/01.03.01_60/ts_103301v010301p.pdf) 
 | 540803 | 0x84083 | 0pc8.00.03 | NPRA general purpose traffic management application No. 1 | Norwegian Public Road Administration (NPRA) | NPRA | 2019-10-07 | assigned | tbd 
@@ -131,15 +131,15 @@ This list is identical to and coordinated with the [Provider Service Identifier 
 | 540820 | 0x84094 | 0pc8.00.14 | NPRA general purpose traffic management application No. 18| Norwegian Public Road Administration (NPRA) | NPRA | 2019-10-07 | assigned | tbd 
 | 540821 | 0x84095 | 0pc8.00.15 | NPRA general purpose traffic management application No. 19| Norwegian Public Road Administration (NPRA) | NPRA | 2019-10-07 | assigned | tbd 
 | 540822 | 0x84096 | 0pc8.00.16 | NPRA general purpose traffic management application No. 20| Norwegian Public Road Administration (NPRA) | NPRA | 2019-10-07 | assigned | tbd 
-| 540823 ? 1065086 | 0x84097 ? 0x10407e | 0pc8.00.17 ? 0pcf.ff.fe |  | **reserved for future assignments by the CEN registrar** |  |  | allocated |  
-| 1065087 ? 2112639 | 0x10407f ? 0x203c7f | 0pcf.ff.ff ? 0pdf.fb.ff |  | **reserved for future assignments by ISO/TC 204** |  |  | allocated |  
-| 2112640 ? 2113662 | 0x203c80 ? 0x20407e | 0pdf.fc.00 ? 0pdf.ff.fe | Testing | Can be used by anybody for test purposes with special authorisation | IEEE 1609 WG | 2018-04-06 | assigned | &lt;none> 
+| 540823 … 1065086 | 0x84097 … 0x10407e | 0pc8.00.17 … 0pcf.ff.fe |  | **reserved for future assignments by the CEN registrar** |  |  | allocated |  
+| 1065087 … 2112639 | 0x10407f … 0x203c7f | 0pcf.ff.ff … 0pdf.fb.ff |  | **reserved for future assignments by ISO/TC 204** |  |  | allocated |  
+| 2112640 … 2113662 | 0x203c80 … 0x20407e | 0pdf.fc.00 … 0pdf.ff.fe | Testing | Can be used by anybody for test purposes with special authorisation | IEEE 1609 WG | 2018-04-06 | assigned | &lt;none> 
 | 2113663 | 0x20407f | 0pdf.ff.ff |  | **reserved for future assignments by ISO/TC 204** |  |  | allocated |  
 | 2113664 | 0x204080 | 0pe0.00.00.00 | Fast Service Announcement Protocol (FSAP) |  | ISO/TC 204 | 2013-02-14 | assigned | [ISO 22418](https://www.iso.org/standard/76968.html) 
 | 2113665 | 0x204081 | 0pe0.00.00.01 | ITS station-internal management communications (IICP) |  | ISO/TC 204 | 2013-02-14 | assigned | [ISO 24102-4](https://www.iso.org/standard/73267.html) 
 | 2113666 | 0x204082 | 0pe0.00.00.02 | Veniam delay tolerant networking | Intended usage in WSA. Usage compliant with IEEE 1609.2 is unknown | Veniam.com | 2016-04-18 | assigned |  
 | 2113667 | 0x204083 | 0pe0.00.00.03 | Transcore software update | Intended usage in WSA. No usage compliant with IEEE 1609.2 | Transcore, Inc. | 2016-11-03 | assigned |  
-| 2113668 ? 2113671 | 0x204084 ? 0x204087 | 0pe0.00.00.04 ? 0pe0.00.00.07 | SRA Private use | No usage in WSA. Usage compliant with IEEE 1609.2 is intended. | SRA, Inc. | 2016-11-03 | assigned |  
+| 2113668 … 2113671 | 0x204084 … 0x204087 | 0pe0.00.00.04 … 0pe0.00.00.07 | SRA Private use | No usage in WSA. Usage compliant with IEEE 1609.2 is intended. | SRA, Inc. | 2016-11-03 | assigned |  
 | 2113672 | 0x204088 | 0pe0.00.00.08 | Over-the-air File Broadcast | Details unknown. Ask IEEE 1609 WG | Siemens Industry, Inc. | 2017-02-08 | assigned |  
 | 2113673 | 0x204089 | 0pe0.00.00.09 | Data Log Transfer |  | Siemens Industry, Inc | 2017-02-08 | assigned |  
 | 2113674 | 0x20408a | 0pe0.00.00.0a | CV Pilot Application 3 |  | Crash Avoidance Metrics Partners LLC | 2017-02-08 | assigned |  
@@ -168,10 +168,10 @@ This list is identical to and coordinated with the [Provider Service Identifier 
 | 2113697 | 0x2040a1 | 0pe0.00.00.21 | Caterpillar, Inc. Construction and Mining |  | Caterpillar, Inc. | 2025-05-26 | assigned | Private Use 
 | 2113698 | 0x2040a2 | 0pe0.00.00.22 | Caterpillar, Inc. Construction and Mining 2 |  | Caterpillar, Inc. | 2025-05-26 | assigned | Private Use 
 | 2113699 | 0x2040a3 | 0pe0.00.00.23 | Automated Vehicle Marshalling System |  | SAE International | 2025-05-26 | assigned | SAE J32681 
-| 2113700 ? 69222528 | 0x2040a4 ? 0x4204080 | 0pe0.00.00.24 ? 0pe4.00.00.00 |  | **reserved for future assignments by the IEEE registrar** |  |  | allocated |  
-| 69222529 ? 136331392 | 0x4204081 ? 0x8204080 | 0pe4.00.00.01 ? 0pe8.00.00.00 |  | **reserved for future assignments by the CEN registrar** |  |  | allocated |  
-| 136331393 ? 270548095 | 0x8204081 ? 0x10203c7f | 0pe8.00.00.01 ? 0pef.ff.fb.ff |  | **reserved for future assignments by ISO/TC 204** |  |  | allocated |  
-| 270548096 ? 270549117 | 0x10203c80 ? 0x1020407d | 0pef.ff.fc.00 ? 0pef.ff.ff.fd | Testing | Can be used by anybody for test purposes with special authorisation | IEEE 1609 WG |  | assigned | &lt;none> 
+| 2113700 … 69222528 | 0x2040a4 … 0x4204080 | 0pe0.00.00.24 … 0pe4.00.00.00 |  | **reserved for future assignments by the IEEE registrar** |  |  | allocated |  
+| 69222529 … 136331392 | 0x4204081 … 0x8204080 | 0pe4.00.00.01 … 0pe8.00.00.00 |  | **reserved for future assignments by the CEN registrar** |  |  | allocated |  
+| 136331393 … 270548095 | 0x8204081 … 0x10203c7f | 0pe8.00.00.01 … 0pef.ff.fb.ff |  | **reserved for future assignments by ISO/TC 204** |  |  | allocated |  
+| 270548096 … 270549117 | 0x10203c80 … 0x1020407d | 0pef.ff.fc.00 … 0pef.ff.ff.fd | Testing | Can be used by anybody for test purposes with special authorisation | IEEE 1609 WG |  | assigned | &lt;none> 
 | 270549118 | 0x1020407e | 0pef.ff.ff.fe | IPv6 routing |  | IEEE 1609 WG |  | assigned | [IEEE 1609.3](https://standards.ieee.org/standard/1609_3-2016.html) 
 | 270549119 | 0x1020407f | 0pef.ff.ff.ff | Error indicator "unknown / invalid ITS application" | Used in protocols within parameter fields carrying ITS-AID / PSID. | ISO/TC 204 |  | assigned | [ISO 22418](https://www.iso.org/standard/76968.html) 
 | \> 270549119 | \> 0x1020407f | \> 0pef.ff.ff.ff |  |  |  |  | reserved |  
