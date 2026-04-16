@@ -71,7 +71,7 @@ This list is identical to and coordinated with the [Provider Service Identifier 
 |  145 | 0x91 | 0p80.11 | Maneuver Coordination Service  | SAE | 2022-06-06 | ass | [SAE J3186](https://www.sae.org/standards/content/j3186/) |
 |  146 … 255 | 0x92 … 0xff | 0p80.12 … 0p80.7f |  **reserved by the IEEE registrar** |  |  | all |  |
 |  256 | 0x100 | 0p80.80 | Certificate Revocation List Application  | IEEE | 2015-07-28 | ass |  |
-|  257 … 621 | 0x101 … 0x2.6d | 0p80.81 … 0p81.ed  | **reserved by the IEEE registrar** |  |  | all |  |
+|  257 … 621 | 0x101 … 0x26d | 0p80.81 … 0p81.ed  | **reserved by the IEEE registrar** |  |  | all |  |
 |  622 | 0x26e | 0p81.ee | Certificate Revocation List (CRL) service  | ETSI | 2018-03-19 | ass | [ETSI 102 941](https://www.etsi.org/deliver/etsi_ts/102900_102999/102941/01.04.01_60/ts_102941v010401p.pdf) |
 |  623 | 0x26f | 0p81.ef | Secured certificate request service  | ETSI | 2018-03-19 | ass | [ETSI 102 941](https://www.etsi.org/deliver/etsi_ts/102900_102999/102941/01.04.01_60/ts_102941v010401p.pdf) |
 |  624 | 0x270 | 0p81.f0 | Certificate Trust List (CTL) service  | ETSI | 2018-03-19 | ass | [ETSI 102 941](https://www.etsi.org/deliver/etsi_ts/102900_102999/102941/01.04.01_60/ts_102941v010401p.pdf) |
