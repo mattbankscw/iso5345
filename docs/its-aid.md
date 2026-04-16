@@ -92,7 +92,7 @@ This list is identical to and coordinated with the [Provider Service Identifier 
 |  639 | 0x27f | 0p81.ff | Collective perception service (CPS)  | ETSI | 2019-10-21 | ass | ETSI TS 103 324 |
 |  640 | 0x280 | 0p82.00 | Interference Management Zone (IMZ) - TS under development | ETSI |  | ass | ETSI TS 103 724 |
 |  641 | 0x281 | 0p82.01 | GTDM access control  | CEN |  | ass | [ISO 21184](https://www.iso.org/standard/70057.html) |
-|  642 … 1615 | 0x282 … 0x6.4f | 0p82.00 … 0p85.cf  | **reserved by the CEN registrar** |  |  | all |  |
+|  642 … 1615 | 0x282 … 0x64f | 0p82.00 … 0p85.cf  | **reserved by the CEN registrar** |  |  | all |  |
 | 1616 | 0x650 | 0p85.d0 | TMS message set parser  | CEN | 2017-12-11 | ass | [CEN/TS 17241](https://shop.bsigroup.com/ProductDetail?pid=000000000030380105) |
 | 1617 | 0x651 | 0p85.d1 | eCall - eCall is mandatory and regulated in the EU | CEN | 2017-01-19 | ass | CEN TC278 WI00278453 |
 | 1618 | 0x652 | 0p85.d2 | MRS - Misbehaviour Reporting Service | ETSI | 2023-02-10 | all | ETSI TS 103 759 |
